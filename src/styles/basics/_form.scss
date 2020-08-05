@@ -1,0 +1,52 @@
+
+.form-box {
+  font-size: 1.2em;
+  width: 600px;
+  margin: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  padding: 40px;
+  border-radius: .5rem;
+  margin-block-start: 60px;
+  .form-row {
+    margin-block-end: 30px;
+    label {
+      margin-block-end: 5px;
+    }
+    input:not([type=checkbox]){
+      border: 1px solid $border;
+      border-radius: 5px;
+      padding-inline-start: 8px;
+      height: 45px;
+      font-size: 1em;
+    }
+  }
+
+  .validation-error {
+    color: red;
+    font-size: .8em;
+    margin: 4px;
+  }
+  .password-input {
+    position: relative;
+  }
+  .show-password{
+    position: absolute;
+    top: 55%;
+    
+    &:hover {
+      cursor: pointer;
+    }
+    &.en-pos {
+      left: unset;
+      right: 10px;
+      
+    }
+    &.he-pos {
+      right: unset;
+      left: 10px;
+      
+    }
+  }
+  
+}
+

@@ -1,0 +1,14 @@
+.product-export-container {
+  // background-color: green;
+  width: 180px;
+  .export-btn {
+    text-align: start;
+    transition: all .4s;
+    line-height: 1.5;
+    &:hover {
+      font-weight: 700;
+      color: $logo-blue;
+    }
+
+}
+}

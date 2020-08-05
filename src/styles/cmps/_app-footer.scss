@@ -1,0 +1,11 @@
+.app-footer-container {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  .rights {
+      margin-block-end: 20px;
+    p {
+      line-height: 0.4;
+    }
+  }
+}

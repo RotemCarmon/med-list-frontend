@@ -1,0 +1,14 @@
+.product-filter-container {
+  input {
+    width: 300px;
+    border: 1px solid $border;
+    border-radius: 5px;
+    padding-inline-start: 8px;
+    height: 35px;
+    font-size: 1.2em;
+    margin-inline-end: 10px;
+  }
+  .filter-btn {
+    margin-inline-end: 10px;
+  }
+}

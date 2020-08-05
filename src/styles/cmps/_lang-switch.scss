@@ -1,0 +1,16 @@
+.lang-switch {
+  margin-inline-end: 20px;
+
+  select {
+    padding: 5px 8px;
+    width: 60px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 1px solid $logo-gray;
+    border-top: 1px solid $logo-gray;
+    color: rgb(80, 80, 80)
+  }
+  select:focus {
+    outline: none;
+  }
+}

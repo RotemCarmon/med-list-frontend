@@ -1,0 +1,13 @@
+.main-app-container {
+  min-height: 100vh;
+}
+
+.main-view-container {
+  flex-grow: 1;
+}
+
+.main-layout-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}

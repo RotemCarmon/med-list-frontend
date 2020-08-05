@@ -1,0 +1,38 @@
+.user-edit-container {
+  .form-box {
+    margin-block-start: 0;
+    font-size: 1em;
+    .line {
+      border-bottom: 1px solid $logo-blue;
+      margin-block-end: 30px;
+    }
+    h3 {
+      margin-block-end: 30px;
+      font-weight: 600;
+    }
+    h4 {
+      margin-block-end: 20px;
+      font-weight: 600;
+    }
+    .form-row {
+      margin-block-end: 20px;
+      input:not([type=checkbox]) {
+        height: 35px;
+      }
+    }
+      .permission-select {
+        label {
+          margin: 0;
+        }
+        select {
+          margin-inline-start: 10px;
+          width: 120px;
+        padding-inline-start: 8px;
+        border: 1px solid $border;
+        border-radius: 5px;
+        height: 35px;
+        font-size: 1em;
+      }
+    }
+  }
+}

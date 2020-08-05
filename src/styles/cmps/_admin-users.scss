@@ -1,0 +1,22 @@
+.admin-users-container {
+  table {
+    font-size: 0.9em;
+    width: 100%;
+    border-collapse: collapse;
+    td,
+    th {
+      text-align: start;
+      padding: 8px 15px;
+    }
+    td:not(:last-child) {
+      border-right: 1px solid #f1f1f18a;
+    }
+    th {
+      background-color: darken($row, 5%);
+      border-bottom: 2px solid $logo-blue;
+    }
+    tr:nth-child(even) {
+      background-color: $row;
+    }
+  }
+}

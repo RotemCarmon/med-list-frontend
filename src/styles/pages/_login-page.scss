@@ -1,0 +1,23 @@
+.login-page-container {
+  width: 600px;
+  margin: auto;
+  h2 {
+    margin-block-end: 35px;
+    font-weight: 700;
+  }
+  .btns .submit-btn{
+    margin-block-end: 20px;
+  }
+  .password-input {
+    position: relative;
+  }
+  .show-password{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

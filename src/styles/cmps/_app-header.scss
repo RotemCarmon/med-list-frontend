@@ -1,0 +1,71 @@
+.app-header-container {
+  padding: 20px 0;
+  font-size: 1.2em;
+
+  display: grid;
+  grid-template-columns: minmax( max-content, 500px) auto minmax( max-content, 500px) ;
+
+  .logo {
+    justify-self: center;
+    width: 315px;
+    height: 105px;
+    margin-inline-end: 10px;
+    background-image: url("../../assets/imgs/pharma-soft-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .nav-bar-container {
+    margin-top: 25px;
+    padding: 5px;
+    a,
+    a:after,
+    a:before,
+    .logout-btn,
+    .logout-btn:after,
+    .logout-btn:before {
+      transition: all 0.5s;
+    }
+    transition: all 0.6s;
+    a,
+    .logout-btn {
+      padding: 8px 20px;
+      text-decoration: none;
+      position: relative;
+      &:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: ".";
+        color: transparent;
+        background: $logo-blue;
+        height: 1px;
+      }
+      &:hover {
+        color: $logo-blue;
+        cursor: pointer;
+      }
+      &:hover:after {
+        width: 100%;
+      }
+    }
+    .activeLink {
+      font-weight: 700;
+      color: $logo-blue;
+    }
+
+    i {
+      color: $light-text;
+
+      span {
+        color: darken($light-text, 10%);
+      }
+    }
+  }
+  .lang-switch {
+    margin-top: 25px;
+    justify-self: end;
+  }
+}

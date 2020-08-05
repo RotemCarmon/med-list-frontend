@@ -1,0 +1,76 @@
+{
+  "header": {
+    "home": "home",
+    "products": "medicine price list",
+    "contact": "contacts us",
+    "login": "login",
+    "logout": "logout",
+    "admin": "admin",
+    "hello": "hello"
+  },
+  "footer": {
+    "rights" : "All rights reserved for Pharma Soft Inc.",
+    "address": "Hasadna St. 8 Ra'anana, phone: 09-7440501, fax: 09-7419932"
+  },
+  "export": {
+    "page": "Export page as excel",
+    "full": "Export full data as excel"
+  },
+  "filter": {
+    "placeholder": "Enter the drug's name",
+    "search": "search",
+    "clear": "clear"
+  },
+  "paging": {
+    "prev": "prev",
+    "next": "next"
+  },
+  "contact" : {
+    "contact": "contact us",
+    "instructions": "please provide us with your information and we will conatact you soon"
+  },
+  "form": {
+    "name": "name",
+    "company": "company",
+    "email": "email",
+    "pass": "password",
+    "phone": "phone",
+    "comments": "comments",
+    "address": "address",
+    "st&num": "street address",
+    "city": "city",
+    "remember": "remember me",
+    "send": "send",
+    "signup": "signup"
+  },
+  "login": {
+    "login": "login",
+    "forgotPass": "forgot my password",
+    "didntSignup": "don't have an account yet?",
+    "alreadySignup": "already have an account?"
+  },
+  "resetPass": {
+    "reset": "reset password",
+    "instructions": "enter the email you used you create your account and we will send you a new password shortly",
+    "backToLogin": "back to login screen"
+  },
+  "message": {
+    "thanks": "thank you for contacting us",
+    "weWillContactYou": "we will be in touch soon",
+    "wrongCred": "email or password is wrong",
+    "tryAgain": "please try again",
+    "reqReceived": "your request was received",
+    "newPassWillBeSent": "a new password wil be sent shortly to the email address you have provided",
+    "noEmail": "email address not found"
+  },
+  "errors": {
+    "emailRequired": "email is required",
+    "emailInvalid": "email is invalid",
+    "nameRequired": "name is required",
+    "passRequired": "password is required"
+  },
+  "display":{
+    "loading": "loading the page",
+    "nothing": "no contant to display"
+  }
+}

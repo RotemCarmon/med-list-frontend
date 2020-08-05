@@ -1,0 +1,16 @@
+.admin-nav-container {
+  padding: 0 5px;
+  border-inline-end: 1px solid $border;
+  a {
+    border-bottom: 1px solid $border;
+    min-width: fit-content;
+    white-space: nowrap;
+    padding: 10px;
+    transition: all .6s;
+    &:hover {
+      
+      background-color: rgba($logo-blue, 0.2);
+      cursor: pointer;
+    }
+  }
+}

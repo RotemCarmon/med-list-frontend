@@ -1,0 +1,9 @@
+.product-limit-container {
+  select {
+    height: 35px;
+    margin-inline-end: 10px;
+    border: 1px solid $border;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+}
